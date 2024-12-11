@@ -77,6 +77,9 @@ html, body {
     margin: 20px auto;
  	background: rgba(97, 97, 97, 0.5); /*this uses opacity of 50% for the background color*/
 	text-align: center; 
+	outline-style: solid;
+	outline-color: rgb(0, 0, 0);
+	outline-width: 3px;
 }
 
    
@@ -92,14 +95,14 @@ h1 {
 	font-family: "new-herman", sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size: 40px;  
+	font-size: 50px;  
     margin: 0px auto 10px auto;
     color: #000000;
 }
 
 h2 {
 	font-family: "new-herman", sans-serif;
-	font-weight: 400;
+	font-weight: 510;
 	font-style: normal;
 	font-size: 20px; 
 	letter-spacing: 1px;   /* ----- tracking -----*/
@@ -117,6 +120,9 @@ nav{
 	margin: 0 auto;
 	border-radius: 10px;
 	background-color: rgb(160, 162, 88, 0.8);
+	outline-style: solid;
+	outline-color: rgb(0, 0, 0);
+	outline-width: 3px;
 	color: rgb(0, 0, 0);
 	padding: 1px 60px;
 	text-decoration: none;
@@ -142,7 +148,7 @@ a{
 a:hover{
 	border-radius: 5px;
 	font-size: 20px;   /*--- increase font size for hover --*/
-	transition-duration: 1s; 
+	transition-duration: 0.5s; 
 	color: rgb(160, 162, 88);
 	background: rgb(0, 0, 0);  /*--- flip colors for hover ---*/
 }
