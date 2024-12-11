@@ -75,7 +75,7 @@ html, body {
 	width: 800px;
 	padding: 2%;
     margin: 20px auto;
- 	background: rgba(97, 97, 97, 0.5); /*this uses opacity of 50% for the background color*/
+	background:rgb(160, 162, 88, 0.35); /*this uses opacity of 35% for the background color*/
 	text-align: center; 
 	outline-style: solid;
 	outline-color: rgb(0, 0, 0);
